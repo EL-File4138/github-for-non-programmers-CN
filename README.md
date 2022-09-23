@@ -1,19 +1,27 @@
-# GitHub for Non-Programmers
+# GitHub for Non-Programmers / 非程序员的GitHub
 
-GitHub is a website designed for programmers to collaboratively build their code. But that doesn't mean you need to be a programmer to use it! You can get started with collaborative version-tracking of your (non-programming) work without ever writing a line of code or using the command line.
+*Author: [Tom VanAntwerp](https://github.com/tvanantwerp)*
 
-## A Guide for People Who Don't Code and Don't Want to Code.
+*Translator: [Matrew File](https://github.com/EL-File4138)*
 
-If you're unsure whether or not GitHub is something you want to try, I can understand. Learning new things is mentally taxing. So let me promise you now: once you've gone through this guide and given the GitHub workflow a try, you'll never want to go back to the way it was before. Why is that? Because the GitHub workflow is surprisingly simple and sane. You're going to eliminate a lot of problems that are *already* taxing your brain, such as "Which version of this file was the final one?" and "Who is responsible for making this edit?" Trust me, you're going to like this once you get into it.
+*Modification have been made for better understanding under Chinese condition.*
 
-This guide isn't meant to turn someone into a `git` master. It should show non-programmers a simple way to add `git` and GitHub to their work process with a minimum of jargon. This guide will contain no code, and it will only show how to use the GitHub desktop app for simplicity's sake.
+GitHub是为程序员而建立的一个代码托管/合作开发平台。但这不意味着你必须是一个程序员才能了解如何使用这个网站！不需要写一行代码，也不需要对着命令行输入一大堆无理冗杂的指令，你也可以在创作你的作品时享受到便于合作的版本控制系统之利。
 
-You probably don't write code, and may never want to write code. You are happy with the subpar version control you have (e.g., `file.docx`, `file final.docx`, `file FINAL.docx`, etc.), not because it's good, but because you haven't been shown any other way to do it. This guide is an attempt to show you that better way without making your brain explode.
+## 为那些不写代码、也不想写代码的人而作。
 
-## Contributing
+如果你还不确定GitHub应不应该进入你的工作，我当然能理解。学习新技能本就令人充满压力。所以，在此我向你保证：只要你看完了这整套教程，并且尝试过GitHub的工作流程，你就再也不想回到原来了。为什么？因为GitHub的工作流本就惊人的简单且直观。你将会解决过去许多困扰你**许久**的问题，比如“这个文件的最终版是哪个？”、“谁该为这处更改负责？”。相信我，只要你学会了，你会喜欢的。
 
-Any help is welcome in improving this guide. Please see [our contributing guidelines](https://github.com/tvanantwerp/github-for-non-programmers/blob/master/CONTRIBUTING.md) for ways to help out.
+这套教程的目的不是为了让读者成为 `git` 大师，而是为了让那些非程序员以最小的学习成本将 `git` 和GitHub整合入他们的工作流程中。这套教程不会设计任何代码，并且只会展示 GitHub Desktop 的使用方法以保持简洁。
 
-## License
+正如这段的标题所言，你大概不写代码，也从来没有想过写代码。你只满意于现有的版本控制机制（比如，“xx项目”、“xx项目改”、“xx项目改最终”、“xx项目改最终成品”、……），不是因为这样很完美，而是因为你从来没有发现更好的做这件事情的方式。这套教程的目的就是为了简单易懂的，让你发现这样一套更好的方式。
 
-This guide is distributed under a [Creative Commons Attribution-ShareAlike 4.0 International License](https://creativecommons.org/licenses/by-sa/4.0/). Designs in GitHub products are copyrighted by GitHub, and their images are used under fair use doctrine for educational purposes.
+## 翻译贡献
+
+我们欢迎对本教程的贡献。请参见 [贡献指南](https://github.com/EL-File4138/github-for-non-programmers-CN/blob/master/CONTRIBUTING.md)。
+
+*译者注：贡献指南相对原文有大量改写，请注意版本问题。*
+
+## 版权协议
+
+本教程以 [知识共享 (Creative Commons) 署名—相同方式共享 4.0 公共许可协议 国际版](https://creativecommons.org/licenses/by-sa/4.0/deed.zh) 发布。教程中所展示的GitHub产品知识产权归GitHub所有，图片以合理使用方式引用，作教学目的。
