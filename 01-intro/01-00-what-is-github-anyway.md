@@ -1,11 +1,11 @@
-# What is GitHub, Anyway?
+# 所以到底什么是 GitHub？
 
-Before we talk about GitHub, we have to talk about a program called **git**. Many programmers use git for **version control**, which means they use it to track any changes to a set of files they are working on. This means that any new mistakes can be reverted safely to a previous state without having to create endless copies of the same file for backup. Git will track everything in a folder you've specified. The contents of that folder are called a **repository**, or **repo** for short.
+讨论 GitHub 之前，我们需要先讨论一个叫 **Git** 的程序。许多程序员使用Git作为**版本控制**系统，这意味着他们用Git来追踪一组当前工作的文件的任何变化。这样，任何新引入的错误都能被安全的回退到先前的状态，而无需创建一大堆同一个文件的备份文件。Git会跟踪你指定的一个文件夹里的任何文件。文件夹里的内容就叫做一个**仓库（Repository）**，简称 **Repo**。
 
-Git works by allowing you to **commit** a snapshot of your work with a descriptive name. Each commit should have a name that tells you something about what you've changed since the previous commit. A list of commits  ordered newest to oldest might look like this:
+Git 的工作方式是通过**提交（Commit）**一个当前工作状态的快照，并附加一个描述更改的信息。每一个提交信息都应该清晰的描述自从上次提交以来你所做的更改。一系列提交（以时间倒序排列）可能会如下图所示：
 
 ![Git Commit History](/images/git-commits.png)
 
-Isn't that more informative than several copies of a Word document named `Content.docx`, `Content Final.docx`, `Content Final FINAL.docx`, etc.? By using git commits, you don't need multiple copies of a regularly changed file; there's only the one copy of the files you care about, and all the snapshots you took along the way. And with meaningful commit messages, you don't have to guess what changes are in what version of your work.
+显然，这样比一堆起名叫`xx.docx`、`xx改.docx`、`xx改最终版.docx`……的文件要富含更多信息。通过使用 Git 的提交，你不需要为经常更改的文件保留一大堆备份，而只需要关心一份文件和一路更改以来的历史记录。有了有意义的提交信息，你也不需要猜测每个版本里你都改了什么。
 
-**GitHub** is a website that lets you store a copy of your git repository online where you can your collaborators can share it and work together. GitHub allows you and your team to know who is changing what and why. You can be sure that you're working off of the most recent copy of the work by pulling new commits from GitHub. And when you're done making commits of your own, you can push them back to GitHub for everyone else to use. You can also use features like GitHub Issues to keep track of problems and to-dos, and discuss them as a team. GitHub also makes it easy to control who can make what changes, and for merging different changes by different people together.
+**GitHub** 是一个可以让你在线保存你的 Git 仓库的副本的网站，而且在这里你和你的协作者可以共享仓库、一起工作。GitHub 让你和你的团队知道谁因为什么改了什么东西。你通过拉取新提交来确定你在改的就是最新的。而当你完成自己的提交之后，也可以将提交推送回 GitHub 供其他所有人使用。你还可以使用例如 GitHub Issues 等功能来追踪问题和待办，并且在团队内讨论。GitHub 也让权限控制变得简单，同时还能方便的合并不同作者的冲突编辑。
