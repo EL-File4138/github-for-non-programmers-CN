@@ -5,8 +5,41 @@ You've got the GitHub desktop app installed and hooked up to your account. Now i
 In the GitHub desktop app, click the plus arrow in the upper left. By default, this lets you **Create** a new repo. (You can also **Add** one already on your system that the app doesn't know about yet, or **Clone** one that's already on GitHub but not on your computer.) Give the repo a descriptive name (no spaces!) and choose where you want it to be saved. By default, it saves new repos in `C:\Users\[[username]]\Documents\GitHub\[[repo-name]]`, which is the same as saying `My Documents > GitHub > [[repo-name]]`. You can choose a different location if you prefer. Once you've picked a name and a place to save the repo, go ahead and click **Create Repository**.
 
 ## Create the Repo
-![Create a new repository!](/images/create-repo.png)
+
 
 You've just created a folder where git can track your work for this project!
 
 When you create your first repo, it will automatically make your first commit for you. This first commit contains files that help git properly track your work. You can ignore these files for now, but don't move or delete them! These files are usually hidden, so you'll likely only see them if you have enabled the viewing of hidden system files on your computer.
+
+
+# 创建你的第一个仓库
+
+如上述步骤，你安装了 GitHub Desktop 应用，也登录到了你的账户。现在该试试如何版本控制了！
+
+*译者注：因 GitHub Desktop 版本更新，以下内容的具体操作和配图已经重写。*
+
+在 GitHub Desktop 应用中，点击首页的 `Create a New Repository on your hard drive...`。这一选项能够让你创建一个全新的本地Git仓库。当然，你也可以通过其他选项**添加已有仓库**、**克隆（Clone）在线仓库**。
+
+![首页](/images/main-page.png)
+
+给你的仓库起一个描述性的名字（不要加空格！）、提供一些仓库内容的描述，然后选择仓库所在的位置。默认来说，仓库会被存放在 `C:\Users\[[用户名]]\Documents\GitHub\[[仓库名]]` ，你也可以自行选择仓库位置。一旦你选择好了，就可以点击 `Create repository` 了`。
+
+![创建新仓库](/images/create-repo.png)
+
+***
+
+以下是其他一些选项的说明，如果你不太熟悉 Git 系统，建议先行跳过。
+
+`Initialize this repository with a README` 是一个特殊选项。在 GitHub 上（和开发者业界惯例中）仓库文件夹下的 `README.md` 是一个用于描述仓库下代码的情况的说明文件，类似于这个项目的说明书。这一选项能够在创建仓库时自动为你创建这个文件，从而省去自己创建的烦恼。
+
+**Git ignore** 是 Git 系统中版本控制的一个重要环节。开发过程中，很多工具、测试代码、配置文件等都不应该被暴露在 GitHub 上。因此，Git 在检查文件更新时会先查询 `.gitignore` 文件，从该文件中获取需要被过滤掉不跟踪的文件。创建新仓库时，GitHub Desktop 可以自动生成对应语言所需的文件，从而免去开发者手动编写。当然，作为非程序员，这个文件对你可能也会很有用，比如加入自己不想被别人看到的草稿文件夹。
+
+**License** 指的是仓库的版权协议，在 Git 仓库中，这些协议通常在 `LICENSE` 文件中保留了一份全文的副本。GitHub Desktop 可以主动加入所选协议的全文。
+
+***
+
+恭喜，你顺利创建了自己的第一个 Git 仓库！
+
+![工作区](/images/workspace.png)
+
+创建仓库时，Git 系统会自动生成一份首次提交。这份提交中包含了让你的 Git 仓库正常运作的关键文件。你可以暂时忽略它们，但是千万不要删除！
