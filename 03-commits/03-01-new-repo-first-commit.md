@@ -1,13 +1,14 @@
-# New Repository and First Commit
-![New repo inside GitHub desktop app](images/new-repo.png)
+# 新仓库和首次提交
+![GitHub Desktop中显示的新仓库](/images/workspace.png)
 
-Inside the GitHub desktop app, when you are working on one of the repositories in the long list on the left, it will default to a view of the commit history. Above, you'll see that there is only one commit listed. This commit, named `Added .gitattributes & .gitignore files`, is automatic. When we make more commits, they will show up in the list on the left with their name, the time the commit was created, and the name of the person who made that commit.
+在GitHub Desktop中，当你在仓库中工作时，左侧的列表可以选择显示过去的提交记录和当前未提交的更改。下面这张图中，只有一个名为 `Initial commit` 的提交，是在仓库创建时自动生成的。当我们创建更多提交时，它们会在左侧的列表中展示其名称、创建时间和创建者。
 
-When you choose a commit from the list, you can see what files have been changed on the right. The colored squares to the far right of a file's name indicate how much has been added versus how much has been removed from that file. Green equals additions, and red equals subtractions. If you click the arrow to the immediate left of a file's name, it will show you the exact lines of the file that have changed. (Note: this doesn't work for files that *are not* just lines of text, such as an image file.) Sections in green have been added, and sections in red have been removed. Below is an example from this very guide!
+![提交信息区域](/images/commit-list.png)
 
-# Changes to Text in a File
-![Git diff](/images/git-diff.png)
+选中其中一个提交时，右侧主信息区的左栏会显示这个提交所包含的文件更改。文件名旁红色`-`号、绿色`+`号和绿色圆点指示这个文件里的内容是净减少、净增加还是相等的改动。点击具体的文件名则会在右侧详细内容栏显示文件的具体更改，绿色高亮的区域是增加的部分，红色高亮的区域是减少的部分。（这只适用于纯文本文件，图片的更改对比略有不同，某些文件，比如 PDF，则完全不会显示具体更改。）
 
-## A note on naming things:
+![提交中的更改](/images/commit-diff.png)
 
-Git and GitHub are built for programmers who work in the world of code, not English. This means that files are typically named without any spaces or other special characters that have particular meaning in programming. You should probably adopt file name conventions that are similar. Not only does having a style for file names help you organize things, but it may also be necessary to avoid some weird errors. For example, including `#` in a file name (e.g., `Important File #1.docx`) will cause errors in your commits to GitHub. Best to keep things simple, like `important-file-1.txt`.
+## 文件命名的原则
+
+Git 和 GitHub 是为了程序员而设计的，对于很多英语的常用文件命名并不使用。这意味着，Git能够正确管理的文件名通常不应该包含任何空格或者特殊符号。因此，你也应该尽可能养成良好的文件命名习惯。这不仅能帮助你规范管理文件，同时也能避免许多奇怪的错误。
