@@ -1,29 +1,29 @@
 # 添加提交历史
 
-Now that you've got a repository, you'll need to make commits to keep track of your work. In the GitHub desktop app, you'll have two main view for your repo: the commit history and the uncommitted changes. You can switch between these views with the buttons in the top-center of the program. You've already seen what the history view looks like when we viewed your first automatic commit. Let's make some changes to your repo and take a look at that!
-
-创建仓库之后，你需要生成提交来跟踪你的工作进度。在GitHub Desktop App中，
+创建仓库之后，你需要生成提交来跟踪你的工作进度。如前文所述，在 GitHub Desktop 应用中，展示整个仓库的界面被分为左右两个主要视图：提交历史和未提交更改。你可以点击在这些视图间切换。你已经在首个自动提交时见到了提交历史界面的样子。接下来，我们来对仓库添加一些更改看看会发生什么。
 
 ![Uncommitted changes](/images/uncommitted-changes.png)
 
-In this example above, you can see a list of all of the files that have changed since the last commit. You can see that I'm adding two new text files in a folder called `new-folder`. I've also edited a file called `second-file.txt`, completely replacing the second paragraph of text as previewed on the right. Commits let us track saved changes to *any* file within the repo's folder. If no changes were made to a set of files, those files won't been seen in commit summaries.
+在上面的例子中，你可以看到你自上次提交后所有发生更改的文件的列表。你能看到我在一个名叫 `new-folder` 的文件夹中添加了两个新的文本文件；同时，我也编辑了一个叫做 `second-file.txt` 的文件，如右边预览所示完全替换掉了第二段。提交能让我们追踪仓库文件夹中*所有*文件的更改过程。如果文件没有被更改，这些文件就不会在提交概要中显示。
 
-The changes view allows me to review what I've done since the last commit and, if I'm happy with these changes, create a new commit with my changes. To do this, look at the box in the bottom-left corner and simply give the commit a name in the **Summary** field and click **Commit to master**.
+更改视图能让我们回溯自上次提交后我们做了什么，并且，如果我们对更改满意的话，创建一个新的提交来保存更改：只需要看左下角的输入框，在 **Summary** （摘要）框中给提交命名并点击 **Commit to master** （提交到`master`分支）。
 
 ![New commit message](/images/commit-message.png)
 
-Easy, right? Now we can go back to our history view and see the new commit at the top of our history with a full summary of the changes we made.
+很简单，对吗？现在我们就可以返回我们的提交历史视图，并在时间线的最上方看到我们新的提交以及其所作出的更改摘要了。
 
 ![Update commit history](/images/new-commit-history.png)
 
-Now that you know how to review changes between commits and create new commits, you're ready to build a habit of committing changes to your work on a regular basis.
+现在你已经知道如何在提交间检查更改以及如何创建新提交了。下一步，你将开始养成定期提交你的工作进度的习惯。
 
-## When Should I Commit?
+## 我应当何时提交？
 
-If you ask Google that question, you'll get all sorts of dubious relationship advice. I can't really advise you about relationships, but I can give you advice on when to create commits to your work.
+如果你在 Google 上搜索这个问题，你大概会得到各种各样诡异的情感建议。我不太可能为你提供这些，但我可以为你提供何时创建提交的建议。
 
-You should try to make commits that are logical chunks of work that you've done. In my example commit history, I created commits for new files, new sections of text documents that I'd written, and for rewrites of those sections. You probably don't need to make a commit for adding a comma somewhere--you can wait and include that change with a larger body of changes. However, you shouldn't wait too long. If your repo only has a single commit of your finished work, then you're not really using version control at all.
+*（译者注：“提交”的原词“Commit”还有“对某事某物投入精力”的意思。“Committing to a relationship”也有“表白”、“求婚”的意思。当然，译者在搜索 Google 这个问题时得到的几乎都是和 Git 有关的了。）*
 
-As another example of what I mean by committing the logical chunks of your work as you go, here's the commit history of this guide up to this point:
+你应该尝试着让每个提交都作为一块相对独立的工作内容。在我提供的示例中，我为创建新文件、编写新段落以及改写这些段落创建了提交。你大概不需要为在哪里加了个逗号创建提交：你可以把这样的更改滞后，包含到其他更大的提交；然而，你也不应该等的太久。如果你的仓库只有一个你完成整个工作的提交，那么你其实没怎么用到版本控制。
+
+为了更好的理解“相对独立的工作内容”，下面是另外一个例子，是本教程仓库到目前为止的提交：
 
 ![Guide commit history](/images/guide-commits.png)
